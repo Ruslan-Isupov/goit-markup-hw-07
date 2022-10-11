@@ -1,0 +1,196 @@
+.footer-box {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.address-box {
+    margin-right: 70px;
+
+}
+
+.footicon-list {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footicon-item {
+
+    width: 44px;
+    height: 44px;
+
+}
+
+.footicon-link {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+
+
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+    
+}
+&:hover .networks-icon {
+    fill: var(--primary-background-color)
+}
+}
+.footer-icon {
+
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+
+
+
+.footer-text {
+
+    font-weight: $font-weight-primary;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+}
+
+/* Navigation Footer */
+
+
+.footer-link {
+    font-weight: $font-weight-secondary;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--accent-color)
+}
+}
+
+.footer {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-contact {
+    padding-left: 0;
+}
+
+.footer-contact .list-item {
+    margin-bottom: 9px;
+    margin-left: 0px;
+}
+
+.footer-contact .list-item:last-child {
+    margin-bottom: 0;
+}
+
+.location {
+    color: #FFFFFF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--accent-color)
+}
+}
+.contacts {
+    font-style: normal;
+}
+.subscription {
+    margin-left: 93px;
+}
+
+.subsc-text {
+    display: block;
+    font-size: 14px;
+    font-weight: $font-weight-primary;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+}
+
+.email-form {
+    width: 358px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(33, 150, 243, 0), rgba(33, 150, 243, 0));
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+
+&::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+&:hover,
+&:focus {
+    border: 1px solid var(--accent-color);
+}
+}
+.email-btn {
+
+    font-size: 16px;
+    font-weight: $font-weight-primary;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+    padding: 10px 28px;
+    margin-left: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:focus,
+&:hover {
+    background-color: var(--accent-btn);
+}
+}
+
+.email-icon {
+    margin-left: 10px;
+    vertical-align: middle;
+
+}
+
+.email-icon {
+    fill: var(--primary-background-color)
+}
