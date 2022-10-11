@@ -1,18 +1,23 @@
-.team-title {
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-box__title {
     min-width: 264px;
 
 }
-
-
-.team-item+.team-item {
-    margin-left: 30px;
-}
-
 .team-list {
     display: flex;
 
 }
-
+.team-list__item {
+    background-color: var(--primary-background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-list__item +.team-list__item {
+    margin-left: 30px;
+}
 
 .team-desc {
     padding: 30px 10px;
@@ -20,11 +25,9 @@
 }
 
 
-.team {
-    background-color: #F5F4FA;
-}
 
-.team-name {
+
+.team-desc__name {
 
     font-weight:$font-weight-header;
     font-size: 16px;
@@ -34,7 +37,7 @@
     margin-bottom: 10px;
 }
 
-.team-position {
+.team-desc__position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -42,24 +45,20 @@
     margin-bottom: 16px;
 }
 
-.team-item {
-    background-color: var(--primary-background-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
+
 /* Team-networks */
-.networks-list {
+.networks {
     display: flex;
     justify-content: space-evenly;
 }
 
-.networks-item {
+.networks__item {
     width: 44px;
     height: 44px;
 }
 
 
-.networks-link {
+.networks__link {
 
     width: 100%;
     height: 100%;
@@ -76,15 +75,15 @@
 
 
 }
-&:hover .networks-icon {
+&:hover .networks__icon {
     fill: var(--primary-background-color)
 }
 
-&:focus .networks-icon {
+&:focus .networks__icon {
     fill: var(--primary-background-color)
 }
 }
-.networks-icon {
+.networks__icon {
 
     width: 20px;
     height: 20px;

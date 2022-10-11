@@ -17,8 +17,8 @@ button {
     cursor: pointer;
 }
 
-.features-text,
-.team-position,
+.feature-wrap__text,
+.team-desc__position,
 .portfolio-text {
     color: var(--secondary-text-color);
 }
@@ -51,7 +51,7 @@ button {
 }
 
 .specialty__title,
-.team-title,
+.team-box__title,
 .clients-title {
     font-size: 36px;
     line-height: 1.17;

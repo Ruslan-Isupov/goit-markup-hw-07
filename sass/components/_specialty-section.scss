@@ -1,3 +1,7 @@
+.specialty {
+    display: flex;
+
+}
 .specialty__title {
 
     min-width: 366px;
@@ -5,20 +9,16 @@
 }
 
 
-.specialty__list {
-    display: flex;
-
-}
 
 .specialty__item+.specialty__item {
     margin-left: 30px;
 }
-.specialty-box {
+.specialty-wrap {
   
     position: relative;
 }
 
-.specialty-box__img {
+.specialty-wrap__img {
     width: 100%;
     height: 100%;
 
