@@ -4,18 +4,7 @@ body {
     background-color: var(--primary-background-color)
 }
 
-.list {
-    list-style: none;
-}
-.link {
 
-    text-decoration: none;
-}
-
-button {
-    border: none;
-    cursor: pointer;
-}
 
 .feature-wrap__text,
 .team-desc__position,
@@ -52,7 +41,7 @@ button {
 
 .specialty__title,
 .team-box__title,
-.clients-title {
+.clients__title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -73,35 +62,10 @@ button {
     padding-bottom: 94px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-p {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 img {
     display: block;
     max-width: 100%
 }
 
-.no-scroll {
-    overflow: hidden;
-}
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
